@@ -1,0 +1,9 @@
+def remove_duplicates(input_list):
+    # Use set to remove duplicates while preserving order
+    unique_elements = list(set(input_list))
+    return unique_elements
+
+# Example usage:
+input_list = [1, 2, 3, 2, 4, 5, 6, 4, 7]
+unique_elements = remove_duplicates(input_list)
+print("List after removing duplicates:", unique_elements)
